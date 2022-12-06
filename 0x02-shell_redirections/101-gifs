@@ -1,2 +1,2 @@
 #!/bin/bash 
-echo $(cut -c1 | tr -d "\n")
+find . -empty | rev | cut --delimiter='/' -f1 | rev
