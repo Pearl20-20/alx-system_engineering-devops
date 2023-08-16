@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Getting informatyion about employess list through api"""
 
 import requests
